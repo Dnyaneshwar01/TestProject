@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-14T11:23:01 IST" name="RegressionSuite" finished-at="2022-02-14T11:23:16 IST" duration-ms="14781">
+    <groups>
+    </groups>
+    <test started-at="2022-02-14T11:23:01 IST" name="chrometest" finished-at="2022-02-14T11:23:05 IST" duration-ms="4166">
+      <class name="test.ToVerifyHeaderButton">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:01 IST" name="launchBrowser" finished-at="2022-02-14T11:23:02 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:02 IST" name="createPOMobjects" finished-at="2022-02-14T11:23:02 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:02 IST" name="loginToApplication" finished-at="2022-02-14T11:23:03 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:03 IST" name="toverifyTaskButton" finished-at="2022-02-14T11:23:04 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyTaskButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:04 IST" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyTaskButton status=SUCCESS method=ToVerifyHeaderButton.toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="loginToApplication" finished-at="2022-02-14T11:23:04 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="toverifyReportButton" finished-at="2022-02-14T11:23:04 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyReportButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:04 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyReportButton status=SUCCESS method=ToVerifyHeaderButton.toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@31c88ec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="loginToApplication" finished-at="2022-02-14T11:23:04 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:04 IST" name="toverifyUserButton" finished-at="2022-02-14T11:23:05 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyUserButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:05 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:05 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyUserButton status=SUCCESS method=ToVerifyHeaderButton.toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@31c88ec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:05 IST" name="afterTest" finished-at="2022-02-14T11:23:05 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="clearPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@31c88ec8]" started-at="2022-02-14T11:23:05 IST" name="clearPOMobjects" finished-at="2022-02-14T11:23:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+      </class> <!-- test.ToVerifyHeaderButton -->
+    </test> <!-- chrometest -->
+    <test started-at="2022-02-14T11:23:05 IST" name="edgetest" finished-at="2022-02-14T11:23:09 IST" duration-ms="3802">
+      <class name="test.ToVerifyHeaderButton">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:05 IST" name="launchBrowser" finished-at="2022-02-14T11:23:06 IST" duration-ms="790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:06 IST" name="createPOMobjects" finished-at="2022-02-14T11:23:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:06 IST" name="loginToApplication" finished-at="2022-02-14T11:23:06 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:06 IST" name="toverifyTaskButton" finished-at="2022-02-14T11:23:07 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyTaskButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:07 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:07 IST" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyTaskButton status=SUCCESS method=ToVerifyHeaderButton.toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:07 IST" name="loginToApplication" finished-at="2022-02-14T11:23:07 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:07 IST" name="toverifyReportButton" finished-at="2022-02-14T11:23:08 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyReportButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:08 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:08 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyReportButton status=SUCCESS method=ToVerifyHeaderButton.toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:08 IST" name="loginToApplication" finished-at="2022-02-14T11:23:08 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:08 IST" name="toverifyUserButton" finished-at="2022-02-14T11:23:09 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyUserButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:09 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:09 IST" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyUserButton status=SUCCESS method=ToVerifyHeaderButton.toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="clearPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:09 IST" name="clearPOMobjects" finished-at="2022-02-14T11:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.ToVerifyHeaderButton@661972b0]" started-at="2022-02-14T11:23:09 IST" name="afterTest" finished-at="2022-02-14T11:23:09 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.ToVerifyHeaderButton -->
+    </test> <!-- edgetest -->
+    <test started-at="2022-02-14T11:23:09 IST" name="Firefoxtest" finished-at="2022-02-14T11:23:16 IST" duration-ms="6791">
+      <class name="test.ToVerifyHeaderButton">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:09 IST" name="launchBrowser" finished-at="2022-02-14T11:23:12 IST" duration-ms="2741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:12 IST" name="loginToApplication" finished-at="2022-02-14T11:23:12 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:12 IST" name="createPOMobjects" finished-at="2022-02-14T11:23:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method signature="toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:12 IST" name="toverifyTaskButton" finished-at="2022-02-14T11:23:13 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyTaskButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:13 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:13 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyTaskButton status=SUCCESS method=ToVerifyHeaderButton.toverifyTaskButton()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:13 IST" name="loginToApplication" finished-at="2022-02-14T11:23:13 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:13 IST" name="toverifyReportButton" finished-at="2022-02-14T11:23:14 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyReportButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:14 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:14 IST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyReportButton status=SUCCESS method=ToVerifyHeaderButton.toverifyReportButton()[pri:1, instance:test.ToVerifyHeaderButton@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:14 IST" name="loginToApplication" finished-at="2022-02-14T11:23:14 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:14 IST" name="toverifyUserButton" finished-at="2022-02-14T11:23:15 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifyUserButton -->
+        <test-method is-config="true" signature="logoutfromActiTime(org.testng.ITestResult)[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:15 IST" name="logoutfromActiTime" finished-at="2022-02-14T11:23:15 IST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifyUserButton status=SUCCESS method=ToVerifyHeaderButton.toverifyUserButton()[pri:2, instance:test.ToVerifyHeaderButton@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromActiTime -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:15 IST" name="afterTest" finished-at="2022-02-14T11:23:16 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="clearPOMobjects()[pri:0, instance:test.ToVerifyHeaderButton@5ffead27]" started-at="2022-02-14T11:23:15 IST" name="clearPOMobjects" finished-at="2022-02-14T11:23:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+      </class> <!-- test.ToVerifyHeaderButton -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
